@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Registration form</h2>
+    <div class="container">
+        <div class="innerdiv">
+            <form action="" method="post">
+                <div class="name">
+                    Name:&emsp;<input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+        
+                <div class="gender">
+                    <label for="gender">Gender:</label>&emsp;
+                    <input type="radio" id="male" name="gender" value="male"> &ensp;
+                    <label for="male">Male</label>&emsp;
+                    
+                    <input type="radio" id="female" name="gender" value="female"> &ensp;
+                    <label for="female">Female</label>&emsp;
+                    
+                    <input type="radio" id="others" name="gender" value="others"> &ensp;
+                    <label for="others">Others</label>
+                </div>
+        
+                <div class="mail">
+                    Email:&emsp;<input type="email" id="mail" name="email" placeholder="@gmail.com" required>
+                </div>
+        
+                <div class="number">
+                    Phone Number:&emsp;<input type="number" id="number" name="number" placeholder="enter mobile number" required>
+                </div>
+    
+                <div class="dob">
+                    <label for="birthday">Date of birth:</label>&emsp;
+                    <input type="date" id="dob" name="dob" placeholder="DD/MM/YYYY" required>
+                </div>
+    
+                <div class="password">
+                    password:&emsp;<input type="password" id="password" name="password" placeholder="create password" required>
+                </div>
+    
+                <div class="about">
+                    About:
+                    <br>
+                    <textarea name="message" rows="10" placeholder="Please write about yourself in 500 words"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

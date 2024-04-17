@@ -1,0 +1,7 @@
+footer{
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.299);
+}
+a:hover{
+    text-decoration: underline;
+}
